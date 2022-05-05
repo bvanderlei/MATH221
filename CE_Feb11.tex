@@ -1,0 +1,87 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath, amssymb, graphicx, epsfig, fleqn}
+\usepackage{systeme, array}
+\pagestyle{empty}
+\newcommand{\rank}{\textrm{rank}\,}
+\newcommand{\adj}{\textrm{adj}\,}
+
+\begin{document}
+
+\begin{center}
+	\Large
+	\rm{Math 221}
+	\\
+	\rm{Class Exercises:  Feb. 9}
+	\\
+\end{center}
+\vspace{0.2in}
+\fboxsep0.5cm
+
+\begin{enumerate}
+
+
+\item {Consider the following linear system
+	\begin{eqnarray*}
+		x_1 - 4x_2 &=& 1 \\
+		3x_1 + hx_2 & = & k
+	\end{eqnarray*}
+	
+	\begin{enumerate}
+		\item{Give all values of $h$ and $k$ such that there is no solution to the system.}
+		\item{Give all values of $h$ and $k$ such that there is a unique solution to the system.}
+	\end{enumerate}
+}
+
+\item {Is the set of polynomials $\{x^3+1, x^3-x, x^2 + 1, x+1  \}$ a basis for $\mathbb{P}_3$? Explain why or why not.}
+
+\item {Let $U$ and $W$ be subspaces of a vector space V 
+	\begin{enumerate}
+		\item{Show that $U\cap W$ is also a subspace.  
+			\\(\textit{$U\cap W$ is the set of vectors that are in both $U$ and $W$.})}
+		\item{Show by giving a counterexample that in general $U\cup W$ is not a subspace.  \\(\textit{$U\cup W$ is the set of vectors that are in $U$ or $W$.})  } 
+	\end{enumerate}
+}
+
+\item{Is it possible to determine if the matrix with the following structure must have zero determinant?
+\begin{displaymath}
+A = \left[ \begin{array}{rrrrr}  
+* & * & * & * & * \\  
+\** & * & * & * & * \\ 
+0 & 0 & 0 & * & * \\ 
+0 & 0 & 0 & * & * \\ 
+0 & 0 & 0 & * & * \\ 
+\end{array} \right] \quad
+\end{displaymath}
+(The $*$ entries are not equal, just nonzero.)
+}
+
+\item{If $B$ and $C$ are invertible matrices, is it true that $\adj{(BC)} = (\adj{B})(\adj{C})$?}
+
+\item{For what vectors $b$ does there exist a solution to $Ax=b$?
+\begin{displaymath}
+A = \left[ \begin{array}{rrrr} 1 &  2 &  0 & 1 \\ 0 & 0 & 0 & 0\\ 2 & 4 & 0 & 1 \end{array} \right] \quad \quad b = \left [ \begin{array}{r} b_1 \\ b_2 \\ b_3 \end{array} \right ]
+\end{displaymath}
+\begin{enumerate}
+\item{Find a basis for the null space $\mathcal{N}(A)$.}
+\item{Find a basis for the column space $\mathcal{C}(A)$.}
+\item{In the case that $b$ is in $\mathcal{C}(A)$ write the general form of the solution to $Ax=b$.}
+\item{Find the rank of $A^T$}.
+\end{enumerate}
+}
+
+\item{If $x$,$y \in \mathbb{R}^3$ and $B = xy^T$, what is the rank of $B$? }
+\item{If $A \in \mathbb{M}_{3\times 5}$ and $e_1$, $e_2$ and $e_3$ (the standard basis vectors for $\mathbb{R}^3$) are in $\mathcal{C}(A)$, does $A$ have a right inverse?  Does it have a left inverse?}
+\item{How many $4\times 4$ permutation matrices are there?  Does this set span $\mathbb{M}_{4\times 4}$?  Is the set linearly independent?}
+\item{Show that an $n\times n$ matrix $A$ is invertible if and only if $A^T$ is invertible.  (Can you supply an argument that does not rely on determinants?)}
+
+
+\end{enumerate}
+
+\vspace{0.1in}
+\end{document}
+
+
+
+
+

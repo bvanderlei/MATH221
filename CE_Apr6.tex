@@ -1,0 +1,108 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath, amssymb, graphicx, epsfig, fleqn}
+\usepackage{systeme, array}
+\pagestyle{empty}
+\newcommand{\adj}{\textrm{adj}\,}
+\newcommand{\rank}{\textrm{rank}\,}
+\newcommand{\Ker}{\textrm{Ker}\,}
+\newcommand{\Image}{\textrm{Im}\,}
+\newcommand{\Proj}{\textrm{Proj}\,}
+\newcommand{\Span}{\textrm{Span}\,}
+
+\begin{document}
+
+\begin{center}
+	\Large
+	\rm{Math 221}
+	\\
+	\rm{Class Exercises:  Apr. 6}
+	\\
+\end{center}
+\vspace{0.2in}
+\fboxsep0.5cm
+
+\begin{enumerate}
+\item{
+	The transformations $T:\mathbb{R}^2\to\mathbb{R}^3$ and $S:\mathbb{R}^3\to\mathbb{R}^2$ 
+	are defined as follows:
+	\begin{displaymath}
+	T\left(\left[ \begin{array}{r} x \\ y \end{array} \right] \right) =  \left[ \begin{array}{c} x \\ 0 \\ x+y \end{array} \right] \quad \quad \quad 
+	S\left(\left[ \begin{array}{r} x \\ y \\ z  \end{array} \right] \right) =  \left[ \begin{array}{c} z-x \\ y \end{array} \right] \quad
+	\end{displaymath}
+	\begin{enumerate}
+		\item {Is $T$ injective (one-to-one)?}
+		\item {Is $S\circ T$ an isomorphism?}
+		\item {Find $[S]_{\alpha}^{\beta}$ where $\alpha$ and $\beta$ are the standard ordered basis for $\mathbb{R}^3$ and $\mathbb{R}^2$ respectively.}
+	\end{enumerate}
+}
+\item{Let $T:\mathbb{M}_{2\times 2} \to \mathbb{M}_{2\times 2}$ be defined by $T(B)=B^T$.
+	\begin{enumerate}
+		\item {Show that $T$ is linear.}
+		\item {Find $[T]_{\alpha}^{\alpha}$ if
+			\begin{displaymath}
+			\alpha = \left\{\left[ \begin{array}{rr} 1&0\\0& 0 \end{array} \right],
+			\left[ \begin{array}{rr} 0&1\\0& 0 \end{array} \right],
+			\left[ \begin{array}{rr} 0&0\\1& 0 \end{array} \right],
+			\left[ \begin{array}{rr} 0&0\\0& 1 \end{array} \right] \right\}
+			\end{displaymath}
+		}
+	\end{enumerate}
+}
+
+\vspace{0.1in}
+
+
+\item{Decide if each of the following statements is true or false and explain why:
+\begin{enumerate}
+	\item {If $V\perp W$, then $V^{\perp}\perp W^{\perp}$.}
+	\item {If $V\perp W$ and $W\perp Z$, then $V\perp Z$.} 
+\end{enumerate}
+}
+
+\item{The equation $x+2y-3z=0$ defines a plane in $\mathbb{R}^3$.
+\begin{enumerate}
+	\item {Find a matrix that has this plane as its null space.  Is the matrix unique?}
+	\item {Find a matrix that has this plane as its row space.  Is the matrix unique?}
+\end{enumerate}
+}
+
+\vspace{0.1in}
+
+\item{
+	\begin{enumerate}
+		\item {Find the matrix $P_1$ that projects orthogonally onto $\Span\left\{\left[ \begin{array}{c} 2 \\ 1   \end{array}\right]\right\}$.}
+		\item{Find the matrix $P_2$ that projects orthogonally onto $\Span\left\{\left[ \begin{array}{c} -1 \\ 4   \end{array}\right]\right\}$.}
+		\item{Is the product $P_1P_2$ also an orthogonal projection?}
+	\end{enumerate}
+
+}
+
+\vspace{0.2in}
+
+\item{Let $U = \Span\left\{\left[ \begin{array}{c} 0 \\ 1 \\ 0   \end{array}\right]\right\}$ and
+	$W = \Span\left\{
+	\left[ \begin{array}{c} 2 \\ 1 \\ 1  \end{array}\right],
+	\left[ \begin{array}{c} 0 \\ 1 \\ 1  \end{array}\right]
+	\right\}$
+	
+	\vspace{0.2in}
+	
+	Find a matrix $P$ so that $Px$ is the projection of $x$ onto $U$ along W.  
+	\begin{enumerate}
+		\item {Check that $P^2=P$.}
+		\item {Check that $Px$ is in $U$ for any $x\in\mathbb{R}^3$.}
+		\item {Check that $Pw=0$ for any $w\in W$.}
+\end{enumerate}
+}
+
+
+\end{enumerate}
+
+\vspace{0.1in}
+\end{document}
+
+
+
+
+

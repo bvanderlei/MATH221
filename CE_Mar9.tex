@@ -1,0 +1,59 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{amsmath, amssymb, graphicx, epsfig, fleqn}
+\setlength{\parindent}{0pt}
+\newcommand{\ud}{\,\mathrm{d}}
+\everymath{\displaystyle}
+\def\FillInBlank{\rule{2.5in}{.01in} }
+\newcommand{\Ker}{\textrm{Ker}\,}
+\newcommand{\Image}{\textrm{Im}\,}
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{center}
+\Large
+\rm{Math 221}
+\\
+\rm{Class Exercises:  Mar. 9}
+\\
+\end{center}
+\vspace{0.2in}
+\fboxsep0.5cm
+
+A transformation $T:\mathbb{M}_{2\times 2}\to\mathbb{M}_{2\times 2}$ is defined by 
+
+\begin{displaymath}
+T\left(\left[ \begin{array}{cc} a & b \\ c & d \end{array}\right]\right) =   \left[ \begin{array}{cc} a & 0 \\ 3c & d \end{array}\right].
+\end{displaymath}
+
+\begin{enumerate}
+	\item {Show that $T$ is linear.}
+	\item {Find a basis for $\Image(T)$.}
+	\item {Is $T$ an isomorphism?}
+	\item {Find $[T]_{\alpha}^{\alpha}$ if
+\begin{displaymath}
+\alpha = \left\{
+\left[ \begin{array}{cc} 1 & 0 \\ 0 & 0   \end{array}\right],
+\left[ \begin{array}{cc} 0 & 1  \\ 0 & 0   \end{array}\right],
+\left[ \begin{array}{cc} 0 & 0  \\ 1 & 0   \end{array}\right],
+\left[ \begin{array}{cc} 0 & 0  \\ 0 & 1   \end{array}\right]
+\right\}.
+\end{displaymath}	
+}
+	\item {Find $[T]_{\beta}^{\alpha}$ if
+	\begin{displaymath}
+	\beta = \left\{
+	\left[ \begin{array}{cc} 1 & 1 \\ 0 & 0   \end{array}\right],
+	\left[ \begin{array}{cc} 0 & 0  \\ 1 & 1   \end{array}\right],
+	\left[ \begin{array}{cc} 1 & 0  \\ 1 & 0   \end{array}\right],
+	\left[ \begin{array}{cc} 0 & 1  \\ 0 & 1   \end{array}\right]
+	\right\}.
+	\end{displaymath}	
+}
+\end{enumerate}
+
+
+\end{document}
+
+

@@ -1,0 +1,68 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{amsmath, amssymb, graphicx, epsfig, fleqn}
+\setlength{\parindent}{0pt}
+\newcommand{\ud}{\,\mathrm{d}}
+\everymath{\displaystyle}
+\def\FillInBlank{\rule{2.5in}{.01in} }
+\pagestyle{empty}
+
+\begin{document}
+\begin{center}
+\Large
+\rm{Math 221}
+\\
+\rm{Class Exercises:  Mar. 2}
+\\
+\end{center}
+\vspace{0.2in}
+\fboxsep0.5cm
+
+A linear transformation $T:\mathbb{R}^3\to\mathbb{R}^2$ is defined by 
+
+\begin{displaymath}
+T\left(\left[ \begin{array}{r} x_1 \\ x_2 \\ x_3 \end{array}\right]\right) =  \left[ \begin{array}{r} x_1-2x_2 \\ x_1+3x_3 \end{array}\right].
+\end{displaymath}
+
+Show that $T$ is \textbf{surjective} (onto).
+
+
+\vspace{4in}
+
+
+If $S:\mathbb{R}^2\to\mathbb{R}^4$, explain why $S$ cannot be \textbf{onto}.
+
+\pagebreak
+
+A linear transformation $T:\mathbb{R}^3\to\mathbb{R}^3$ is defined by 
+
+\begin{displaymath}
+T\left(\left[ \begin{array}{r} x_1 \\ x_2 \\ x_3 \end{array}\right]\right) =  \left[ \begin{array}{c} 2x_2 \\ x_2 - x_3 \\ x_1+3x_3 \end{array}\right].
+\end{displaymath}
+
+Show that $T$ is \textbf{injective} (one-to-one).
+
+\pagebreak
+%\vspace{0.3in}
+
+Suppose $T:\mathbb{R}^3\to\mathbb{R}^4$ and $S:\mathbb{R}^4\to\mathbb{R}^2$ are defined as follows.
+
+\begin{displaymath}
+T\left(\left[ \begin{array}{r} x_1 \\ x_2 \\ x_3 \end{array}\right]\right) = 
+\left[ \begin{array}{c} x_1+x_2 \\ x_1 \\ x_2-x_3 \\ x_1-x_2 \end{array}\right]
+\quad\quad\textrm{and}\quad\quad
+S\left(\left[ \begin{array}{r} x_1 \\ x_2 \\ x_3 \\ x_4 \end{array}\right]\right) = 
+\left[ \begin{array}{c} x_1-x_2+x_4 \\ x_2+3x_4 \end{array}\right]
+\end{displaymath}
+
+\begin{enumerate}
+	\item {Find a matrix $B$ so that $S\circ T:\mathbb{R}^3\to\mathbb{R}^2$ is defined by $(S\circ T)(x) = Bx$.}
+	\item {Is $(S\circ T)$ one-to-one?  Explain.}
+\end{enumerate}
+
+
+
+
+\end{document}
+
+

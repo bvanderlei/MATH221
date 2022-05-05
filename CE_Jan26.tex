@@ -1,0 +1,49 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{amsmath, amssymb, graphicx, epsfig, fleqn}
+\setlength{\parindent}{0pt}
+\newcommand{\ud}{\,\mathrm{d}}
+\everymath{\displaystyle}
+\def\FillInBlank{\rule{2.5in}{.01in} }
+\pagestyle{empty}
+
+\begin{document}
+\begin{center}
+\Large
+\rm{Math 221}
+\\
+\rm{Class Exercises:  Jan. 26}
+\\
+\end{center}
+\vspace{0.2in}
+\fboxsep0.5cm
+
+\begin{enumerate}
+	\item {Determine the $LU$ factorization for $B$.
+
+\begin{displaymath}
+B = \left[ \begin{array}{rrr} 1 & 2 & 2  \\ 2 & 3 & 7 \\ 0 & 2 & -2 
+\end{array}\right]
+\end{displaymath}
+}
+\vspace{2in}
+\item{
+Solve the linear system $Ax=b$ with $A=LU$ where $L$, $U$, and $b$ given as 
+\begin{displaymath}
+L = \left[ \begin{array}{rr} 1 &  0 \\ 2 & 1 \end{array} \right] \quad 
+U = \left[ \begin{array}{rrrr} 3 &  0 & 2 & -1 \\ 0 & 4 & 2 & 1 \end{array} \right] \quad 
+b = \left[ \begin{array}{r} 4  \\ 6 \end{array} \right]
+\end{displaymath}
+Do not reconstruct $A$  and perform elimination. Make use of the factorization.
+}
+\vspace{3in}
+\item{Let $A$ be an $n\times n$ singular matrix and $B$ be any other $n\times n$ matrix.  Explain why the matrix $AB$ is singular.}
+
+\item{Let $E$ be an elementary matrix.  Explain why $\det{E} = \det{E^T}$.}
+
+\end{enumerate}
+
+
+\end{document}
+
+
